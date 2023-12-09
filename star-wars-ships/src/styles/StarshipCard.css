@@ -1,0 +1,35 @@
+#all-ships {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ship-container {
+    border: 5px solid snow;
+    border-radius: 7px;
+    background-color: rgb(44, 62, 137);
+    width: 400px;
+    
+}
+
+.ship-name {
+    text-align: center;
+    color: skyblue;
+    font-size: 2em;
+}
+
+p {
+    color: snow;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+}
+
+span {
+    color: rgb(254, 38, 38);
+}
+
+strong {
+    color: rgb(53, 160, 53);
+}
